@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="nav">
+        <h2>All Tasks</h2>
+        <button id="addTask">Add Task</button>
+        <button id="sort">Sort</button>
+        <select name="priorityFilter" id="priorityFilter">
+          <option value="all">All</option>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+
+        <button id="theme-btn">dark mode</button>
+      </div>
+
+      <div class="tasks">
+
+      </div>
+
+      <div class="form">
+        <div></div>
+        <form>
+          <h1>Task</h1>
+          <div class="top">
+            <h1 id="close">x</h1>
+          </div>
+          <input type="text" placeholder="Task Title" />
+          <input type="text" placeholder="Task description" />
+          <input type="date" placeholder="date" />
+          <select name="priority" id="priority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+
+          <button id="addUP">Add Task</button>
+        </form>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
