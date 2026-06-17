@@ -21,19 +21,19 @@ A simple and responsive Task Manager application built using HTML, CSS, and Java
 
 ### Home Page
 
-![Home Page](./screenshots/image.png)
+![Home Page](./assests/image.png)
 
 ### Add Task Form
 
-![Add Task](./screenshots/add.png)
+![Add Task](./assests/add.png)
 
 ### Task Sort List
 
-![Task List](./screenshots/sort.png)
+![Task List](./assests/sort.png)
 
 ### Update List
 
-![Task List](./screenshots/update.png)
+![Task List](./assests/update.png)
 
 
 ## ⚡ Getting Started
